@@ -1,0 +1,1930 @@
+/* html */
+html {
+    font-size: 14px;
+    font-family: 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', sans-serif;
+    color: #222;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+    word-break: break-all;
+    box-sizing: border-box;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+html {
+    display: block;
+}
+
+
+
+/* body */
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+img, figure, h1, h2, h3, h4, h5, h6, form, select {
+    margin: 0;
+    padding: 0;
+}
+
+/* ??? */
+div {
+    padding: 0;
+}
+
+body {
+    display: block;
+}
+
+/* ??? */
+div {
+    display: block;
+}
+
+
+
+
+
+
+
+
+.hover-opacity:hover {
+    opacity:0.7;
+    transition:0.2s;
+}
+
+
+.SuccessStory:hover > .SuccessStory__intro p {
+    color: #f79314;
+}
+
+.SuccessStory:hover > .SuccessStory__intro  {
+    color: #f79314;
+}
+
+.hover-text-color:hover {
+    color: #f79314;
+    transition: 0.2s;
+}
+
+.contents-tidy:hover .course-link.hover-text-color {
+    color: #f79314;
+    transition: 0.2s; 
+}
+
+.interview-media:hover .hover-scale {
+    transform:scale(1.1,1.1);
+    transition:0.2s;
+}
+
+.interview-media:hover .interview-media-text.hover-text-color {
+    color: #f79314;
+    transition: 0.2s; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+.site-header {
+    width: 100%;
+    position: absolute;
+}
+
+.site-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-width {
+    max-width: 100%;
+    margin: 0 36px 0 36px;
+    position: relative;
+}
+
+.contents-tidy {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+
+
+.header-logo > .header-logo-pc {
+    width: auto;
+    height: 20px;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.header-logo > .header-logo-sp {
+    display: none;
+}
+
+.site-header .site-header-inner > *:last-child {
+    display: inline-flex;
+}
+
+nav {
+    display: block;
+}
+
+.header-nav-hamburger {
+    display: none;
+}
+
+.header-nav .header-nav-list.contents-tidy {
+    align-items: center;
+}
+
+.contents-tidy {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+
+.header-nav .header-nav-item-outline {
+    margin-right: 45px;
+}
+
+
+.header-nav .header-nav-item {
+    display: block;
+}
+
+.header-nav .header-nav-item > span:first-child {
+    font-family: 'Lato', sans-serif;
+}
+
+.header-nav .header-nav-item > span {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.header-nav .header-nav-item > span:last-child {
+    font-size: 10px;
+}
+
+.header-button {
+    width: fit-content;
+}
+
+.link-button.menu {
+    font-size: 12px;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.link-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #f79314;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+}
+
+
+
+/* main 1 */
+main {
+    display: block;
+}
+
+
+.section-top-hero {
+    padding-top: 190px;
+    padding-bottom: 28px;
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png);
+    background-size: auto 100%;
+    background-position: right 0;
+    background-repeat: no-repeat;
+}
+
+.content-width {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.top-hero-box {
+    position: relative;
+    max-width: 337px;
+}
+
+.top-hero-box .top-hero-heading > img {
+    width: 100%;
+    height: auto;
+}
+
+.top-hero-box .top-hero-text {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 1.7;
+}
+
+.top-hero-box > * + * {
+    margin-top: 30px;
+}
+
+
+.top-hero-box .top-hero-text > span {
+    color: #f79314;
+}
+
+.link-button.no-subtitle {
+    font-size: 16px;
+}
+
+.link-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #f79314;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+    border: none;
+}
+
+.top-hero-box .No1-notation {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: -170px;
+}
+
+.top-hero-box .No1-notation img {
+    width: 154px;
+    height: 154px;
+}
+
+p {
+    color: #333;
+}
+
+.section-top-hero .proviso {
+    color: #888;
+    font-size: 10px;
+    max-width: 512px;
+    padding-top: 132px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+
+/* main 2 */
+.main-section.top-about {
+    background-color: #f79314;
+    padding: 45px 0;
+}
+
+.banner-for-students {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.banner-for-students--sp {
+    display: none;
+}
+
+.top-about .contents-tidy {
+    align-items: center;
+}
+
+.about-text {
+    color: #fff;
+    width: 53%;
+}
+
+.about-text h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.about-text h2 > span {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.about-text h2 {
+    letter-spacing: 1px;
+}
+
+.about-text p {
+    color: #fff;
+    font-weight: 700;
+    margin-top: 15px;
+    line-height: 26px;
+}
+
+.about-text + .top-about-button {
+    margin-top: 40px;
+    width: 250px;
+}
+
+.link-button.inversion {
+    color: #f79314;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.link-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+}
+
+
+.link-button span:first-child {
+    letter-spacing: 4px;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+}
+
+.link-button {
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.link-button span:last-child {
+    font-size: 14px;
+}
+
+
+/* main 3 */
+.main-section {
+    padding: 100px 0;
+}
+
+.section-header.contents-tidy {
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-header {
+    width: 100%;
+}
+
+.section-main-heading {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.section-main-heading {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.section-header h2 > span{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+body {
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.section-sub-heading {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.section-sub-heading > span {
+    font-family: 'Lato', sans-serif;
+}
+
+.section-header.bottom-line::after {
+    content: '';
+    display: block;
+    border-bottom: solid 6px #f79314;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.main-section .section-header + .section-content {
+    margin-top: 60px;
+}
+
+.desc-list.list-number {
+    margin-top: 110px;
+}
+
+.desc-list > li {
+    background-color: #fcfaf5;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+li {
+    margin: 0;
+}
+
+.desc-list .list-no {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -90px auto 0 auto;
+    background-color: #fcfaf5;
+    border-radius: 50%;
+    color: #f79314;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.desc-list .list-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -20px;
+    letter-spacing: 1px;
+}
+
+.desc-list .list-text {
+    font-size: 16px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.desc-list .list-text span {
+    color: #f79314;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.desc-list .example {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.SuccessStories__title {
+    display: inline-block;
+}
+
+.SuccessStories__title > h4 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1;
+    vertical-align: bottom;
+}
+
+.SuccessStories__title > img {
+    height: auto;
+    margin-left: 10px;
+    width: 34px;
+}
+
+.SuccessStories__title::after {
+    content: '';
+    border-bottom: solid 4px #f79314;
+    display: block;
+    margin-top: 10px;
+}
+
+.desc-list .example-contents.contents-tidy {
+    flex-wrap: wrap;
+}
+
+.desc-list .example-contents {
+    margin: 32px 0 10px 0;
+}
+
+.SuccessStoriesList__link {
+    cursor: pointer;
+    display: contents;
+}
+
+.SuccessStory {
+    display: flex;
+    width: 33.3%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.desc-list .example-contents .last-line {
+    margin-bottom: 0;
+}
+
+.desc-list .example-contents img {
+    width: 60px;
+    height: 60px;
+}
+
+.SuccessStory__intro {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px 16px;
+    text-align: left;
+}
+
+.SuccessStory__intro p {
+    color: #000;
+    font-weight: 700;
+}
+
+.SuccessStory::after {
+    content: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/common/chevron-right.jpg);
+    display: inline-block;
+    height: fit-content;
+    margin: auto;
+    transform: scale(0.4);
+}
+
+.desc-list > li + li {
+    margin-top: 120px;
+}
+
+.CorporateInterviewSection {
+    margin-top: 30px;
+}
+
+.CorporateInterviewCard.CorporateInterviewCard--with-link {
+    padding: 30px 30px 60px;
+}
+
+.CorporateInterviewCard {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 25px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+.CorporateInterviewCard__left img {
+    border-radius: 4px;
+    width: 390px;
+    margin-bottom: 5px;
+}
+
+.CorporateInterviewCard__left {
+    color: #a2a2a4;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.CorporateInterviewCard__right {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 40px;
+    margin-left: 16px;
+}
+
+.CorporateInterviewCard__right > p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.CorporateInterviewCard__link {
+    align-items: baseline;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.CorporateInterviewCard__link a {
+    color: #a2a2a4;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+
+.CorporateInterviewCard__link img {
+    margin-left: 10px;
+    width: 6px;
+}
+
+.CorporateInterviewCard:last-of-type {
+    margin-bottom: 0;
+}
+
+.CorporateInterviewCard {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+.engineer-list {
+    margin-top: 45px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.engineer-list .engineer-box {
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 0 15px;
+    width: calc(100% / 3);
+}
+
+.engineer-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.engineer-conpany-logo {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.engineer-conpany-logo > img {
+    width: 100%;
+}
+
+.engineer-profile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.engineer-name.contents-tidy {
+    flex-direction: column;
+}
+
+.engineer-name {
+    text-align: start;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.engineer-name > span {
+    color: #f79314;
+    font-size: 14px;
+}
+
+.engineer-text {
+    width: 100%;
+    position: relative;
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: start;
+}
+
+
+.engineer-text::before {
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: 29px;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid #f6f6f6;
+}
+
+.desc-list .example-company {
+    padding: 28px 30px;
+}
+
+.desc-list .example {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+
+.desc-list .example-contents.contents-tidy {
+    flex-wrap: wrap;
+}
+
+.desc-list .example-contents-company {
+    justify-content: start;
+    margin: 0;
+}
+
+.desc-list .example-contents-company > li {
+    height: 71px;
+    margin: 12px 0;
+    padding: 0;
+    width: 25%;
+}
+
+.desc-list .example-contents > li {
+    display: flex;
+}
+
+.desc-list .example-contents-company .img-box {
+    align-items: center;
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: calc(100% + 50px);
+}
+
+.desc-list .example-contents-company img {
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+}
+
+
+
+.desc-list .example-contents-support {
+    display: block;
+    justify-content: start;
+    margin: 0;
+    padding: 10px;
+}
+
+.desc-list .example-contents-support > li {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    list-style: disc;
+    list-style-position: inside;
+    margin-left: 1.4em;
+    text-align: left;
+    text-indent: -1.4em;
+    width: 100%;
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+.desc-list .example-contents-support-supplement {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 6px 0 10px;
+    text-align: left;
+}
+
+.main-section.top-potepan {
+    position: relative;
+    overflow: hidden;
+    background-color: #f6f6f6;
+}
+
+.main-section.top-potepan .content-width {
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/bg-section-top-course.png);
+    background-size: 281px 275px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 50px) top;
+    padding-top: 35px;
+}
+
+.main-section.top-potepan > * {
+    position: relative;
+    z-index: 1;
+}
+
+.content-width {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-main-heading {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.section-header h2 > span {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.pc-dn {
+    display: none !important;
+}
+
+.course-media {
+    font-weight: bold;
+    padding: 45px;
+    background-color: #fff;
+}
+
+.course-media.career .course-title {
+    border-image: linear-gradient(to right, #f79214 0%, #f74e06 100%);
+    border-image-slice: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.course-title.contents-tidy {
+    justify-content: center;
+    align-items: center;
+}
+
+.course-title {
+    width: 30%;
+    margin-right: 30px;
+    border: solid 3px;
+}
+
+.course-title p {
+    color: #f77f14;
+    margin-bottom: 7.5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.course-title h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.course-contents {
+    width: calc(70% + 30px);
+    position: relative;
+}
+
+.course-media.career .course-text {
+    color: #f77f14;
+    font-size: 24px;
+}
+
+.course-text {
+    line-height: 1;
+}
+
+.course-contents > div {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.course-contents > div p:first-of-type {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    background: linear-gradient(
+90deg, #212121, #444);
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.course-contents > div p:last-of-type {
+    font-size: 18px;
+}
+
+.course-link {
+    position: absolute;
+    right: 20px;
+    bottom: -5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #999;
+}
+
+.course-link::after {
+    content: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/common/chevron-right.jpg);
+    display: inline-block;
+    margin: auto;
+    transform: scale(0.4);
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    bottom: 10px;
+    right: -14px;
+}
+
+.section-button {
+    margin-top: 60px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-section.top-service {
+    background-color: #fcfaf5;
+}
+
+.message-title {
+    display: inline-block;
+    font-size: 50px;
+    color: #ff802c;
+    background: -webkit-linear-gradient(0deg, #ff802c, #f79214);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+    letter-spacing: 3px;
+    position: relative;
+    z-index: 1;
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.message-contents.contents-tidy {
+    align-items: center;
+}
+
+.message-contents {
+    margin-top: -20px;
+    position: relative;
+}
+
+.message-text {
+    background-color: #fff;
+    padding: 40px 150px 40px 40px;
+    margin-right: -100px;
+}
+
+.message-text p {
+    line-height: 2;
+    font-weight: 500;
+}
+
+.message-text p + p {
+    margin-top: 40px;
+}
+
+.message-thumbnail {
+    position: relative;
+}
+
+.message-thumbnail p {
+    position: absolute;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 10px #808080;
+}
+
+.message-thumbnail p span {
+    font-size: 24px;
+}
+
+.interview-list {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.interview-list > li {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: calc(100% / 3);
+}
+
+.interview-media .interview-media-thumbnail {
+    overflow: hidden;
+    position: relative;
+    padding-top: 100%;
+}
+
+.interview-media .interview-media-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow:hidden;
+}
+
+
+
+
+
+.pc-dn {
+    display: none !important;
+}
+
+.interview-media .interview-thumbnail-titlebox {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 80px 20px 15px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 55%, rgba(30, 30, 30, 0.7), rgba(50, 50, 50, 0));
+}
+
+.interview-media .interview-thumbnail-titlebox .interview-thumbnail-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f79314;
+}
+
+.interview-media .interview-thumbnail-titlebox .interview-thumbnail-subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 5px;
+    padding-top: 4px;
+    border-top: 1px solid #fff;
+}
+
+.interview-media .interview-thumbnail-titlebox .interview-thumbnail-subtitle .name {
+    font-size: 20px;
+}
+
+.interview-media .interview-thumbnail-titlebox .interview-thumbnail-subtitle > *:last-child {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.interview-media .interview-media-text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 1.8;
+}
+
+.site-footer {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #f79314;
+}
+
+.page-top-button.contents-tidy {
+    align-items: center;
+    justify-content: center;
+}
+
+.page-top-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -105px;
+    right: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 12px 30px -15px;
+    transition: 0.2s;
+}
+
+.page-top-arrow {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-left: solid 3px #f79214;
+    border-top: solid 3px #f79214;
+    transform: rotate(45deg);
+    text-decoration: none;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.site-footer-main .footer-nav {
+    margin-right: 20px;
+    order: 2;
+}
+
+.footer-nav-item:link {
+    color: #fff;
+}
+
+.footer-nav-item {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-nav-item > span {
+    font-weight: normal;
+    margin-left: 1em;
+}
+
+.footer-nav > li + li {
+    margin-top: 30px;
+}
+
+.site-footer-main .footer-nav-and-character {
+    order: 3;
+}
+
+.site-footer-main .footer-nav-and-character .footer-nav {
+    align-self: flex-start;
+}
+
+.site-footer-main .footer-nav-and-character .footer-character {
+    align-self: flex-end;
+    margin: 90px 0 0 40px;
+}
+
+.footer-character > img {
+    width: auto;
+    height: 70px;
+}
+
+.site-footer-main .footer-info {
+    margin-right: 40px;
+    order: 1;
+}
+
+.footer-info {
+    display: block;
+    color: #fff;
+}
+
+address {
+    font-style: normal;
+}
+
+.footer-info .footer-logo {
+    display: inline-block;
+    max-width: 280px;
+}
+
+.footer-info .footer-logo > img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-info .footer-logo + .footer-company {
+    margin-top: 25px;
+}
+
+.footer-info {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-info .footer-company {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-info .footer-company + .footer-address {
+    margin-top: 10px;
+}
+
+.footer-info .footer-address {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-info .footer-address + .footer-social {
+    margin-top: 35px;
+}
+
+.footer-info .footer-social {
+    display: flex;
+}
+
+.footer-info .footer-social-item {
+    display: block;
+    max-width: 60px;
+}
+
+.footer-info .footer-social-item > img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-info .footer-social > li + li {
+    margin-left: 20px;
+}
+
+.footer-copyright {
+    color: #fff;
+    font-size: 12px;
+}
+
+.site-footer-sub {
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+    .site-header {
+        background-color: #fff;
+        z-index: 10;
+    }
+    .header-nav-hamburger {
+        cursor: pointer;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 21px;
+        z-index: 100;
+    }
+    .header-nav-hamburger-line:first-child {
+        top: 0;
+    }
+    .header-nav-hamburger-line {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #222;
+        transform: translate(0, -50%);
+        border-radius: 10px;
+        transition: top 0.2s, transform 0.2s, opacity 0.3s;
+    }
+    .header-nav-hamburger-line {
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #222;
+        transform: translate(0, -50%);
+        border-radius: 10px;
+        transition: top 0.2s, transform 0.2s, opacity 0.3s;
+    }
+    .header-nav-hamburger-line:last-child {
+        top: 100%;
+    }
+    .header-nav .header-nav-list {
+        overflow-y: scroll;
+        position: fixed;
+        left: 100%;
+        width: 100%;
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 75px;
+        transition: transform 0.5s;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .header-nav .header-nav-item-outline {
+        margin-right: 0;
+    }
+    .header-nav .header-nav-item {
+        padding: 20px 0;
+    }
+    .header-nav .header-nav-item > span:first-child {
+        font-size: 16px;
+        letter-spacing: 5px;
+        color: #fff;
+    }
+    .header-nav .header-nav-item > span:last-child {
+        font-size: 12px;
+        margin-top: 10px;
+        color: #f79314;
+        letter-spacing: 2px;
+    }
+    .header-button-outline {
+        margin-top: 20px;
+    }
+    .header-button {
+        margin: 0 auto;
+        width: 250px;
+    }
+   .link-button.menu {
+        height: 60px;
+        font-size: 16px;
+    }
+    .SuccessStory {
+        padding-left: 10px;
+    }
+    
+}
+/* 1080 px */
+
+
+
+
+
+@media screen and (max-width: 1070px) {
+    .interview-list {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+    .interview-list > li {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    .interview-list > li + li {
+        margin-top: 20px;
+        padding-top: 30px;
+        border-top: solid 1px #efefef;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .top-hero-box .No1-notation {
+        right: 0;
+    }
+    .section-top-hero .proviso p {
+        background-color: rgba(255, 255, 255, .3);
+        color: #000;
+        padding: 4px;
+    }
+    .top-about-content {
+        width: 100%;
+    }
+    .message-title {
+        font-size: 32px;
+        background: -webkit-linear-gradient(0deg, #ff802c, #f79214);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .message-contents {
+        flex-direction: column;
+        position: relative;
+        background-color: #fff;
+        padding: 45px 40px 40px;
+    }
+    .message-text {
+        padding: 0;
+        margin-right: 0;
+        margin-top: 30px;
+        order: 2;
+    }
+    .message-thumbnail {
+        order: 1;
+    }
+    .message-thumbnail > img {
+        width: 100%;
+    }
+}
+/* 1024 px */
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 15px;
+    }
+    .site-header {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .header-width {
+        max-width: 100%;
+        margin: 0 20px;
+    }
+    .header-logo > .header-logo-pc {
+        display: none;
+    }
+    .header-logo > .header-logo-sp {
+        display: inline-block;
+        width: auto;
+        height: 16px;
+    }
+    .header-nav .header-nav-list.is-scroll {
+        top: 52px;
+        bottom: 0;
+    }
+    main {
+        padding-top: 52px;
+    }
+    .section-top-hero {
+        padding-top: 258px;
+        padding-bottom: 12px;
+        background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero-sp.png);
+    }
+    .content-width {
+        max-width: none;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .top-hero-box {
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .top-hero-box .top-hero-text {
+        font-size: 15px;
+        text-shadow: 0 0 10px rgb(255 255 255 / 60%);
+    }
+    .top-hero-box > * + * {
+        margin-top: 20px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .section-top-hero .proviso {
+        padding-top: 24px;
+        background-color: inherit;
+        color: inherit;
+    }
+    .main-section.top-about {
+        padding: 30px 0;
+    }
+    .banner-for-students--pc {
+        display: none;
+    }
+    .banner-for-students--sp {
+        display: block;
+        margin: 0 0 50px 5px;
+    }
+    .top-about-content {
+        flex-direction: column;
+    }
+    .about-text {
+        width: 100%;
+    }
+    .about-text h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .about-text h2 > span {
+        font-size: 30px;
+    }
+    .about-text + .top-about-button {
+        margin-top: 40px;
+    }
+    .link-button span:last-child {
+        font-size: 12px;
+    }
+    .section-main-heading {
+        text-align: center;
+        font-size: 26px !important;
+        line-height: 1.2;
+    }
+    .section-header h2 > span {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    .section-sub-heading {
+        font-size: 14px;
+    }
+    .section-sub-heading {
+        font-size: 14px;
+    }
+    .main-section .section-header + .section-content {
+        margin-top: 50px;
+    }
+    .desc-list.list-number {
+        margin-top: 90px;
+    }
+    .desc-list > li {
+        padding: 30px 20px 20px 20px;
+    }
+    .desc-list .list-no {
+        font-size: 30px;
+        height: 80px;
+        margin-top: -70px;
+        width: 80px;
+    }
+    .desc-list .list-title {
+        font-size: 20px;
+        margin-top: -10px;
+    }
+    .desc-list .list-text {
+        font-size: 15px;
+        line-height: 2.2;
+    }
+    .desc-list .list-text span {
+        font-size: 24px;
+    }
+    .desc-list .example {
+        padding: 20px;
+    }
+    .SuccessStories {
+        padding-top: 40px !important;
+    }
+    .SuccessStories__title > h4 {
+        font-size: 16px;
+    }
+    .SuccessStories__title > img {
+        margin-left: 5px;
+        width: 24px;
+    }
+    .SuccessStories__title::after {
+        margin-top: 5px;
+    }
+    
+    .SuccessStoriesList {
+        flex-direction: column;
+        margin-top: 25px !important;
+    }
+    .SuccessStory {
+        align-items: center;
+        margin-bottom: 40px;
+        padding-right: 0;
+        width: 100%;
+    }
+    .SuccessStory::after {
+        margin-right: 6px;
+    }
+    .desc-list .example-contents.SuccessStoriesList {
+    margin: 14px 0 0 0;
+}
+    .desc-list .example-contents .last-line {
+        margin-bottom: 24px;
+    }
+    .desc-list > li + li {
+        margin-top: 90px;
+    }
+    .desc-list > li {
+        padding: 30px 20px 20px 20px;
+    }
+    .CorporateInterviewList {
+        margin-bottom: 4px !important;
+    }
+    .CorporateInterviewCard.CorporateInterviewCard--with-link {
+        padding: 20px 20px 30px;
+    }
+    .CorporateInterviewCard {
+        display: block;
+        margin: 0 auto 25px;
+    }
+    .CorporateInterviewCard__left {
+        margin-bottom: 16px;
+    }
+    .CorporateInterviewCard__left img {
+        width: 100%;
+    }
+    .CorporateInterviewCard__left span {
+        display: block;
+    }
+    .CorporateInterviewCard__right {
+        margin: 0;
+    }
+    .CorporateInterviewCard__link {
+        align-items: center;
+        margin-top: 25px;
+        position: static;
+        text-align: right;
+    }
+    .CorporateInterviewCard {
+        display: block;
+        margin: 0 auto 25px;
+        padding: 20px;
+    }
+    .engineer-list {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* 調整中 */
+    .engineer-list.contents-tidy {
+    display: block;
+    }
+    .engineer-list .engineer-box {
+        background-color: #fff;
+        border-radius: 15px;
+        margin: 0 15px;
+        width: 100%;
+    }
+    
+    
+
+    
+    
+    
+    
+    
+    
+    .engineer-list .engineer-box {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .engineer-media {
+        padding: 10px 20px 20px;
+    }
+    .engineer-text {
+        font-size: 15px;
+    }
+    .engineer-text > p {
+        line-height: 2;
+    }
+    .desc-list .example-company {
+        padding: 20px;
+    }
+    .desc-list .example-contents-company > li {
+        margin: 0;
+        padding: 0;
+        width: 50%;
+    }
+    .desc-list .example-contents-support > li {
+        margin-left: 0;
+        text-indent: 0;
+    }
+    .main-section.top-potepan::before {
+        content: '';
+        position: absolute;
+        top: 30px;
+        left: 60%;
+        right: 20px;
+        display: block;
+        width: 130px;
+        height: 130px;
+        background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/bg-section-top-course.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .main-section.top-potepan .content-width {
+        background: none;
+        padding-top: 0;
+    }
+    .pc-dn {
+        display: block !important;
+    }
+    
+    .main-section.top-potepan .section-content {
+        margin-top: 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .main-section.top-potepan .course-list {
+        padding: 0 20px;
+    }
+    .course-media {
+        flex-direction: column;
+        padding: 25px;
+    }
+    .course-title {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .course-contents {
+        width: 100%;
+        margin-top: 25px;
+        padding-right: 0;
+    }
+    .course-text {
+        line-height: 1.5;
+    }
+    .course-contents > div {
+        margin-top: 25px;
+    }
+    .course-contents > div p:first-of-type {
+        word-break: keep-all;
+    }
+    .course-link {
+        position: static;
+        text-align: right;
+        margin-top: 25px;
+        padding-right: 20px;
+    }
+    .course-link::after {
+        right: 0;
+    }
+    .section-button {
+        margin-top: 40px;
+        max-width: 250px;
+    }
+    .link-button span:last-child {
+        font-size: 12px;
+    }
+    
+    .sp-dn {
+        display: none !important;
+    }
+    .pc-dn {
+        display: block !important;
+    }
+    .interview-media .interview-media-text {
+        margin-top: 20px;
+    }
+    .interview-media .interview-thumbnail-titlebox {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 55%, rgba(30, 30, 30, 0));
+        padding: 50px 10px 10px;
+    }
+    .interview-media .interview-thumbnail-titlebox .interview-thumbnail-subtitle {
+        display: flex;
+        flex-direction: column;
+    }
+    .interview-media .interview-thumbnail-titlebox .interview-thumbnail-subtitle > *:last-child {
+        margin-left: 0;
+    }
+    .interview-thumbnail-subtitle::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        bottom: 13px;
+        right: 13px;
+        border-right: solid 3px #f79214;
+        border-top: solid 3px #f79214;
+        transform: rotate(45deg);
+    }
+    .site-footer {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .site-footer-main {
+    display: block;
+    text-align: center;
+    }
+    .page-top-button {
+        right: 20px;
+        top: -85px;
+    }
+    .site-footer-main .footer-nav {
+        text-align: left;
+        margin-right: 0;
+        margin-left: 20px;
+    }
+    .site-footer-main .footer-nav-and-character {
+        margin-top: 30px;
+    }
+    .site-footer-main .footer-nav-and-character .footer-character {
+        margin: 34px auto;
+    }
+    .site-footer-main .footer-info {
+        margin-right: 0;
+    }
+    .site-footer-main * + .footer-info {
+        margin-top: 30px;
+        padding-top: 30px;
+        border-top: 1px solid #fff;
+    }
+    .footer-info .footer-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-info .footer-company {
+        text-align: center;
+    }
+    .footer-info .footer-address {
+        text-align: center;
+    }
+    .footer-info .footer-social {
+        justify-content: center;
+    }
+    .site-footer-sub {
+        text-align: center;
+    }
+}
+/* 767px */
+
+
+
+
+
+
+
+
+@media screen and (max-width: 560px) {
+    .interview-list {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 414px) {
+    .top-hero-box .top-hero-text {
+        text-align: center;
+    }
+    .top-hero-box .No1-notation {
+        top: -98px;
+        left: -24px;
+    }
+    .top-hero-box .No1-notation img {
+        width: 88px;
+        height: 88px;
+    }
+    .banner-for-students--sp {
+        margin: 0 0 50px 5px;
+    }
+}
