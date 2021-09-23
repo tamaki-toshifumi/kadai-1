@@ -54,8 +54,6 @@ div {
 
 
 
-
-
 .hover-opacity:hover {
     opacity:0.7;
     transition:0.2s;
@@ -96,14 +94,6 @@ div {
 
 
 
-
-
-
-
-
-
-
-
 /* header */
 .site-header {
     width: 100%;
@@ -130,7 +120,6 @@ a {
     color: #222;
     text-decoration: none;
 }
-
 
 
 .header-logo > .header-logo-pc {
@@ -1092,10 +1081,6 @@ li {
     overflow:hidden;
 }
 
-
-
-
-
 .pc-dn {
     display: none !important;
 }
@@ -1307,13 +1292,6 @@ address {
 
 
 
-
-
-
-
-
-
-
 @media screen and (max-width: 1080px) {
     .site-header {
         background-color: #fff;
@@ -1432,9 +1410,6 @@ address {
 
 
 
-
-
-
 @media screen and (max-width: 1024px) {
     .top-hero-box .No1-notation {
         right: 0;
@@ -1527,12 +1502,6 @@ address {
     .top-hero-box > * + * {
         margin-top: 20px;
     }
-    
-    
-    
-    
-    
-    
     
     .section-top-hero .proviso {
         padding-top: 24px;
@@ -1690,15 +1659,6 @@ address {
         margin-right: 0;
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    /* 調整中 */
     .engineer-list.contents-tidy {
     display: block;
     }
@@ -1708,14 +1668,6 @@ address {
         margin: 0 15px;
         width: 100%;
     }
-    
-    
-
-    
-    
-    
-    
-    
     
     .engineer-list .engineer-box {
         margin-left: 0;
